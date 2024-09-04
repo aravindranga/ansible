@@ -2,4 +2,4 @@
   hosts: web  # which hosts your ansible server would like to ping 
   tasks : # list of the tasks/modules 
   - name: ping the server 
-   ansible.builtin.ping:
+    ansible.builtin.ping:
