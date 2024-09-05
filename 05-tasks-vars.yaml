@@ -10,8 +10,8 @@
       msg:  "Hi I am learning {{COURSE}}, Duration is :{{DURATION}}, Trainer:{{TRAINER}}"
   
    
-   - name: Print the information again 2
-     vars: #task level variables
+   - name: Print the information 
+      vars: #task level variables
         COURSE: "Ansible"
      ansible.buitlin.debug:
         msg: "Hi I am learing {{COURSE}},Duration is :{{DURATION}}, Trainer is{{TRAINER}}"
